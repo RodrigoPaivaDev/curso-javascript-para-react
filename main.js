@@ -8,7 +8,7 @@ import cardGame from "./src/components/CardGame";
 
 
 const $root = document.querySelector('#root');
-const $htmlcardGame = cardGame() + cardGame();
+const $htmlcardGame = cardGame();
 
 
 $root.insertAdjacentHTML('beforeend', $htmlcardGame);
