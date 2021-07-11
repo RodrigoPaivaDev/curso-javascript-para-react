@@ -6,12 +6,21 @@ import "./src/components/styles/elements/base.css";
 
 import cardGame from "./src/components/CardGame";
 import boardGame from "./src/objects/ boardGame";
+import playerName from "./src/components/PlayerName";
 
 
 
 const $root = document.querySelector('#root');
-const $htmlboardGame = boardGame(6);
 
 
 
-$root.insertAdjacentHTML('beforeend', $htmlboardGame);
+
+$root.insertAdjacentHTML(
+    'beforeend',
+    `
+        ${playerName("Player1")}
+        ${playerName("Player2")}
+        ${boardGame(6)}
+
+    `
+);
