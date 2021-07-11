@@ -10,7 +10,7 @@ import boardGame from "./src/objects/ boardGame";
 
 
 const $root = document.querySelector('#root');
-const $htmlboardGame = boardGame(3);
+const $htmlboardGame = boardGame(6);
 
 
 
