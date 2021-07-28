@@ -4,7 +4,7 @@ import "./src/styles/elements/base.css";
 
 
 
-import boardGame from "./src/objects/ boardGame";
+import boardGame from "./src/objects/boardGame";
 import ScoreBoard from "./src/objects/ScoreBoard";
 
 
