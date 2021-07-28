@@ -7,7 +7,7 @@ function boardGame(amountCards) { /*recebe o parametro declarado la main*/
     const $htmlContent = $htmlcardGame.repeat(amountCards); /*guarda a repeticao dos cards definida pelo parametro amountCards*/
 
 
-    return `
+    return /*html*/`
         <section class="board-game">
             ${$htmlContent} 
         </section>
