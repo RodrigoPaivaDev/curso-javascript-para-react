@@ -9,6 +9,7 @@ import ScoreBoard from "./src/objects/ScoreBoard";
 
 
 
+
 const $root = document.querySelector('#root');
 
 
@@ -18,7 +19,7 @@ $root.insertAdjacentHTML(
     'beforeend',
     `
         ${ScoreBoard()}
-        ${boardGame(6)}
+        ${boardGame(2)}
 
     `
 );

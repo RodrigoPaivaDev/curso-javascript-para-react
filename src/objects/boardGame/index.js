@@ -1,10 +1,9 @@
-import cardGame from "../../components/CardGame";
 import './style.css';
-
+import CardFrontBack from '../../components/CardFrontBack';
 
 function boardGame(amountCards) { /*recebe o parametro declarado la main*/
-    const $htmlcardGame = cardGame(); /*guarda a funcao cardGame recebido pelo import*/ 
-    const $htmlContent = $htmlcardGame.repeat(amountCards); /*guarda a repeticao dos cards definida pelo parametro amountCards*/
+    const $htmlCardFrontBack = CardFrontBack(); /*guarda a funcao cardGame recebido pelo import*/ 
+    const $htmlContent = $htmlCardFrontBack.repeat(amountCards); /*guarda a repeticao dos cards definida pelo parametro amountCards*/
 
 
     return /*html*/`
