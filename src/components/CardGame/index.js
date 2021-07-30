@@ -1,9 +1,9 @@
 import './style.css';
 
-function cardGame() {
+function cardGame(icon = "alura-pixel", alt="Logo da Alura") { /* caso nao passe nenhum paramentro recebe oq ta atribuindo */
     return /*html*/`
         <article class='card-game'>
-            <img src="src/components/images/alura-pixel.png" alt="Logo da Alura" />
+            <img src="src/components/images/${icon}.png" alt="${alt}"/>
         </article>
     `;
 
